@@ -9,21 +9,52 @@ This project was implemented by **Pedro Díaz Balvin and Miguel Amiel Gil.**
 
 We used Pyxel, a retro engine library for Python that allowed us to use our OOP knowledge to program the game.
 
-The project includes different modules, each of them focused on a specific in-game functionality. 
+The project includes different modules, each of them focused on a specific in-game functionality.
+
+To develop the maps and characters, we have used sprites found on the Internet and shared in class. Then we developed the different maps by hand by using the tilemap editor from Pyxel.
+
+All the information about Pyxel can be found here:
+[Pyxel](https://pypi.org/project/pyxel/)
+
+## Installation/Setup
+
+To play the game, you must clone the project and open it in your preferred Python IDE(Pycharm is recommended).
+
+Afterwards, you must create a virtual environment to handle the project and install the Pyxel library. 
+To do so you can run:
+
+1. **Creating the virtual environment**
+
+    python -m venv .venv
+
+2. **Activating the environment**
+
+**Windows**: .\.venv\Scripts\activate
+**Linux/MacOS**: source .venv/bin/activate
+
+3. Install the dependencies
+
+pip install -r requirements.txt
+
+You can finally run the project by running the line:
+python3 Main.py
+
+OR by going to the Main.py module in your IDE and running it
 
 ## Mechanics
 
 In the game, there are 3 types of enemies: koopas, crabs and flies, each of them with their own characteristics.
 1. **Koopas**: most basic enemy, it has one life.
-![Koopa](./Final project/images/koopa.png)
+![Koopa](./Final_project/images/koopa.png)
 
 2. **Crabs**: second enemy type, it has two lives and when getting hit change colours.
-![Crab](./Final project/images/crab.png)
+![Crab](./Final_project/images/crab.png)
 
 3. **Flies**: third enemy type, it has one life and the ability to jump.
-![Fly](./Final project/images/fly.png)
+![Fly](./Final_project/images/fly.png)
 
 To defeat these enemies, two techniques can be followed:
+
 ### 1.Knocking them down
   1. Jumping towards the enemy from below, hitting the tubes to knock them down(these will be notified by changing the tube's sprite).
   2. Hitting the POW block which knocks down all the enemies that were in contact with the ground at that time.
