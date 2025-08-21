@@ -342,7 +342,7 @@ class Game:
             self.__pow.x = 120
             self.__pow.y = 124
 
-        elif self.__enemies_killed >= 5 and self.__constants.level == 3:
+        elif self.__enemies_killed >= 10 and self.__constants.level == 3:
             self.__constants.level = 4
             self.__reset()
             self.__pow.uses = 0

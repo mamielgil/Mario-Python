@@ -15,7 +15,7 @@ class Terrain:
         # This method returns the position of a certain tile. This position
         # is shown in coordinates corresponding to the image bank of the
         # tile-map
-        return pyxel.tilemap(n_tilemap).pget(tile_x, tile_y)
+        return pyxel.tilemaps[n_tilemap].pget(tile_x, tile_y)
 
     def draw(self, level: int):
         """:param level: level that is going to be drawn"""
@@ -57,10 +57,10 @@ class Terrain:
                 for number in range(0, y_final):
                     tile = self.get_tile(level_n, counter, number)
                     if tile == self.pipe_hit1:
-                        pyxel.tilemap(level_n).pset(counter, number,self.background)
+                        pyxel.tilemaps[level_n].pset(counter, number,self.background)
 
                     if tile == self.pipe_hit2 or tile == self.pipe_hit3 or tile == self.pipe_hit4:
-                        pyxel.tilemap(level_n).pset(counter, number, self.pipe)
+                        pyxel.tilemaps[level_n].pset(counter, number, self.pipe)
 
     # We set the tuples with the tile positions as only-read attributes as they must not be changed
     @ property

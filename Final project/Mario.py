@@ -331,15 +331,15 @@ class Mario(Entity):
 
                 tile_left = terrain_check1.get_tile(self.constants.level, save_x2, save_y)
                 tile_right = terrain_check1.get_tile(self.constants.level, save_x3, save_y)
-                pyxel.tilemap(self.constants.level).pset(save_x, save_y, terrain_check1.pipe_hit2)
-                pyxel.tilemap(self.constants.level).pset(save_x, save_y2, terrain_check1.pipe_hit1)
+                pyxel.tilemaps[self.constants.level].pset(save_x, save_y, terrain_check1.pipe_hit2)
+                pyxel.tilemaps[self.constants.level].pset(save_x, save_y2, terrain_check1.pipe_hit1)
 
                 # Checking that the tile that will be changed does not correspond to the background tile(black)
                 if tile_left != terrain_check1.background:
-                    pyxel.tilemap(self.constants.level).pset(save_x2, save_y, terrain_check1.pipe_hit3)
+                    pyxel.tilemaps[self.constants.level].pset(save_x2, save_y, terrain_check1.pipe_hit3)
 
                 if tile_right != terrain_check1.background:
-                    pyxel.tilemap(self.constants.level).pset(save_x3, save_y, terrain_check1.pipe_hit4)
+                    pyxel.tilemaps[self.constants.level].pset(save_x3, save_y, terrain_check1.pipe_hit4)
             else:
                 # We return the collision value
                 collision = False
