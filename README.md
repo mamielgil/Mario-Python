@@ -98,5 +98,5 @@ You may **NOT**:
 - Use copyrighted assets (e.g., Mario sprites) for commercial purposes
 
 This project contains copyrighted material from Nintendo's Super Mario Bros franchise. 
-All rights to the original characters, images, and sounds belong to their respective owners.
+All rights to the original characters and images belong to their respective owners.
 
