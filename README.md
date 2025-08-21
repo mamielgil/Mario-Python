@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 You can finally run the project by running the line:
 cd final_project
-python3 Main.py
+python3 Main.py OR python Main.py
 
 OR by going to the Main.py module in your IDE and running it
 
