@@ -29,7 +29,7 @@ To do so you can run:
 
 2. **Activating the environment**
 
-**Windows**: .\.venv\Scripts\activate
+**Windows**: (Within the project folder) -------> .venv\Scripts\activate
 
 **Linux/MacOS**: source .venv/bin/activate
 
