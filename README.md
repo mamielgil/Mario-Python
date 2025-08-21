@@ -45,13 +45,13 @@ OR by going to the Main.py module in your IDE and running it
 
 In the game, there are 3 types of enemies: koopas, crabs and flies, each of them with their own characteristics.
 1. **Koopas**: most basic enemy, it has one life.
-![Koopa](./Final_project/images/koopa.png)
+![Koopa](./readme_elements/images/koopa.png)
 
 2. **Crabs**: second enemy type, it has two lives and when getting hit change colours.
-![Crab](./Final_project/images/crab.png)
+![Crab](./readme_elements/images/crab.png)
 
 3. **Flies**: third enemy type, it has one life and the ability to jump.
-![Fly](./Final_project/images/fly.png)
+![Fly](./readme_elements/images/fly.png)
 
 To defeat these enemies, two techniques can be followed:
 
@@ -61,6 +61,8 @@ To defeat these enemies, two techniques can be followed:
 
 ### 2. Finishing the enemy off
 **Once the enemies are knocked down you have a fixed amount of time to kill them by walking through them.** If you do not success in killing an enemy, they will empower, increasing their speed.
+
+![Defeating an enemy](./readme_elements/gifs/defeating_enemy.gif)
 
 The player controls **Mario** who moves with **W(jump)**, **A(left)**, **D(right)**. 
 
