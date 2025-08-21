@@ -69,7 +69,9 @@ To defeat these enemies, two techniques can be followed:
 
 ![Defeating an enemy](./readme_elements/gifs/defeating_enemy.gif)
 
-The player controls **Mario** who moves with **W(jump)**, **A(left)**, **D(right)**. 
+The player controls **Mario** who moves with:
+
+**W/Up-Arrow(jump)**, **A/Left-Arrow(left)**, **D/Right-Arrow(right)**
 
 The main objective is to complete the 4 levels of the game, getting as many points as possible. Points are given by collecting coins and by defeating the different enemies.
 
