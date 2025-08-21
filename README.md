@@ -25,7 +25,7 @@ To do so you can run:
 
 1. **Creating the virtual environment**
 
-    python -m venv .venv
+    python3 -m venv .venv
 
 2. **Activating the environment**
 
