@@ -3,7 +3,7 @@ A Super Mario Bros–style platformer built with Python. **It was developed as a
 
 This game includes an initial screen which serves as a in-game presentation.  When playing, several levels are showcasted containing a variety of enemies(koopas, craps and flies).
 
-This project was implemented by **Pedro Díaz Balvin and Miguel Amiel Gil.**
+This project was implemented by **Miguel Amiel Gil and Pedro Díaz Balvin.**
 
 ## Implementation
 
@@ -30,6 +30,7 @@ To do so you can run:
 2. **Activating the environment**
 
 **Windows**: .\.venv\Scripts\activate
+
 **Linux/MacOS**: source .venv/bin/activate
 
 3. Install the dependencies
@@ -45,12 +46,15 @@ OR by going to the Main.py module in your IDE and running it
 
 In the game, there are 3 types of enemies: koopas, crabs and flies, each of them with their own characteristics.
 1. **Koopas**: most basic enemy, it has one life.
+
 ![Koopa](./readme_elements/images/koopa.png)
 
 2. **Crabs**: second enemy type, it has two lives and when getting hit change colours.
+
 ![Crab](./readme_elements/images/crab.png)
 
 3. **Flies**: third enemy type, it has one life and the ability to jump.
+
 ![Fly](./readme_elements/images/fly.png)
 
 To defeat these enemies, two techniques can be followed:
@@ -68,6 +72,8 @@ The player controls **Mario** who moves with **W(jump)**, **A(left)**, **D(right
 
 The main objective is to complete the 4 levels of the game, getting as many points as possible. Points are given by collecting coins and by defeating the different enemies.
 
+**Coins can be collected by hitting the pipe where the coin is on or by directly approaching them.
+
 As previously stated, there are four levels:
 **Level 1**: presents the koopa enemy.
 **Level 2**: showcasts the crab enemy.
@@ -75,3 +81,22 @@ As previously stated, there are four levels:
 **Level 4**: a level that combines all the previous enemies to test the knowledge the player has adquired through the game.
 
 **Beware** -> Levels 1-3 require to defeat 5 enemies to move to the next level. Nonetheless, to finish the game and succesfully pass the final level(level 4) you must defeat 10 enemies.
+
+
+# Licensing
+
+This project is for **educational and personal use only**. 
+
+You are **FREE** to:
+
+- Clone, study, and modify the code
+- Use it for personal or academic projects
+
+You may **NOT**:
+
+- Sell or distribute this project as a commercial product
+- Use copyrighted assets (e.g., Mario sprites) for commercial purposes
+
+This project contains copyrighted material from Nintendo's Super Mario Bros franchise. 
+All rights to the original characters, images, and sounds belong to their respective owners.
+
